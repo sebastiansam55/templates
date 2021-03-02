@@ -1,0 +1,17 @@
+{
+    "name": "Templates",
+    "folders":
+    [
+        {
+            "path": "."
+        }
+    ],
+    "build_systems":[
+        {
+            "name": "Python run",
+            "selector": "*.py",
+            "shell": true,
+            "cmd": ["python3 $file"]
+        }
+    ]
+}
